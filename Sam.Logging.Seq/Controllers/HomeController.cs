@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Sam.Logging.Serilog.Controllers
+namespace Sam.Logging.Seq.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -17,7 +17,7 @@ namespace Sam.Logging.Serilog.Controllers
         [HttpGet]
         public OkResult Get()
         {
-            _logger.LogError("Sam.Logging.Serilog");
+            _logger.LogError("Sam.Logging.Seq");
 
             return Ok();
         }
