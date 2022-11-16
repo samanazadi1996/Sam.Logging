@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Sam.Logging.Seq.Controllers
+namespace Sam.Logging.NLog.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -17,7 +17,7 @@ namespace Sam.Logging.Seq.Controllers
         [HttpGet]
         public OkResult Get()
         {
-            _logger.LogError("Test Seq");
+            _logger.LogError("Test NLog");
 
             return Ok();
         }

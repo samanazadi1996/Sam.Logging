@@ -17,7 +17,7 @@ namespace Sam.Logging.Serilog.Controllers
         [HttpGet]
         public OkResult Get()
         {
-            _logger.LogError("Sam.Logging.Serilog");
+            _logger.LogError("Test Serilog");
 
             return Ok();
         }

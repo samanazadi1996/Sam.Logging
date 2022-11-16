@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sam.Logging.Serilog", "Sam.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sam.Logging.Seq", "Sam.Logging.Seq\Sam.Logging.Seq.csproj", "{9DA53356-D690-4DC7-B70F-884E5AFCA9D6}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sam.Logging.NLog", "Sam.Logging.NLog\Sam.Logging.NLog.csproj", "{67C48F4E-8622-4ADF-B513-6A39EBDDC955}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9DA53356-D690-4DC7-B70F-884E5AFCA9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DA53356-D690-4DC7-B70F-884E5AFCA9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DA53356-D690-4DC7-B70F-884E5AFCA9D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C48F4E-8622-4ADF-B513-6A39EBDDC955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C48F4E-8622-4ADF-B513-6A39EBDDC955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C48F4E-8622-4ADF-B513-6A39EBDDC955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C48F4E-8622-4ADF-B513-6A39EBDDC955}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
